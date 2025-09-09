@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --primary-color: black;
+  --secondary-color: white;
+  --third-color: #126992;
+  --shadow-color: 	#fbf8f8;
+  --hover-color: #16a34a;
+}
+
+.bg_image_class{
+  background-image: url('../src/assets/first.jpg');
+  background-size: cover;
+  /* Additional background properties can be added here */
+}
+
+
+.bg_image_class::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (last value) for the opacity */
+}
