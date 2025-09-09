@@ -7,13 +7,13 @@ function Home() {
     <>
       <HelmetSEO
         title={
-          "Explore Bihar Revenue and Land Reforms Department: Services, Updates & Information"
+          "Bihar Revenue and Land Reforms Department | बिहार राजस्व एवं भूमि सुधार विभाग - Official Portal for Services, Updates & Information"
         }
         description={
-          "Discover vital information, services, and updates from the Bihar Government Revenue and Land Reforms Department. Stay informed about revenue management, land reforms, and more through our platform."
+          "Access official information, services, and latest updates from the Bihar Government Revenue and Land Reforms Department. Stay informed about revenue management, land reforms, and citizen services. बिहार सरकार के राजस्व एवं भूमि सुधार विभाग की आधिकारिक जानकारी, सेवाएँ और नवीनतम अपडेट प्राप्त करें। राजस्व प्रबंधन, भूमि सुधार और नागरिक सेवाओं के लिए विश्वसनीय स्रोत।"
         }
         keywords={
-          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, Revenue services, Land reforms, Bihar administration"
+          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, Revenue services, Land reforms, Bihar administration, बिहार राजस्व विभाग, बिहार भूमि सुधार, सरकारी सेवाएँ, भूमि रिकॉर्ड, राजस्व प्रबंधन"
         }
       />
       <div>

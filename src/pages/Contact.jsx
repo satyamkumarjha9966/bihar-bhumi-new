@@ -48,13 +48,13 @@ function Contact() {
     <>
       <HelmetSEO
         title={
-          "Contact Bihar Revenue and Land Reforms Department - Get in Touch"
+          "Contact Bihar Revenue and Land Reforms Department | बिहार राजस्व एवं भूमि सुधार विभाग से संपर्क करें"
         }
         description={
-          "Contact the Bihar Government Revenue and Land Reforms Department for inquiries, assistance, and feedback. Find contact details, address, phone numbers, and email for various offices and officials."
+          "Contact the Bihar Government Revenue and Land Reforms Department for queries, support, and feedback. Find official contact details, address, phone, and email. बिहार सरकार के राजस्व एवं भूमि सुधार विभाग से संपर्क करें: प्रश्न, सहायता और सुझाव के लिए आधिकारिक संपर्क विवरण, पता, फोन और ईमेल प्राप्त करें।"
         }
         keywords={
-          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, Contact us, Contact details, Address, Phone numbers, Email, Feedback"
+          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, Contact us, Contact details, Address, Phone numbers, Email, Feedback, संपर्क करें, बिहार राजस्व विभाग, विभागीय संपर्क, सहायता, सुझाव"
         }
       />
       <div>

@@ -6,13 +6,13 @@ function About() {
     <>
       <HelmetSEO
         title={
-          "About Bihar Revenue and Land Reforms Department - Overview"
+          "About Bihar Revenue and Land Reforms Department | बिहार राजस्व एवं भूमि सुधार विभाग के बारे में"
         }
         description={
-          "Learn about the Bihar Government Revenue and Land Reforms Department, its objectives, functions, and initiatives towards revenue management, land reforms, and related activities."
+          "Learn about the Bihar Government Revenue and Land Reforms Department, its mission, vision, and initiatives for transparent revenue management and land reforms. बिहार सरकार के राजस्व एवं भूमि सुधार विभाग के उद्देश्य, मिशन, और पारदर्शी भूमि प्रबंधन व सुधार की पहलों के बारे में जानें।"
         }
         keywords={
-          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, About us, Objectives, Functions, Initiatives, Revenue management, Land reforms"
+          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, About us, Objectives, Functions, Initiatives, Revenue management, Land reforms, बिहार राजस्व विभाग, विभाग का परिचय, मिशन, उद्देश्य, भूमि सुधार, पारदर्शिता"
         }
       />
       <div>
@@ -100,9 +100,7 @@ function About() {
           <br />
 
           <p className="text-justify text-gray-600 font-medium">
-            <span className="font-bold text-green-700">
-              Mutation Appeals:{" "}
-            </span>
+            <span className="font-bold text-green-700">Mutation Appeals: </span>
             <br />
             <span className="ml-0 md:ml-2">
               Submit appeals related to mutation disputes and track the progress
