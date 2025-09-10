@@ -47,35 +47,30 @@ function Contact() {
   return (
     <>
       <HelmetSEO
-        title={
-          "Contact Bihar Revenue and Land Reforms Department | बिहार राजस्व एवं भूमि सुधार विभाग से संपर्क करें"
-        }
-        description={
-          "Contact the Bihar Government Revenue and Land Reforms Department for queries, support, and feedback. Find official contact details, address, phone, and email. बिहार सरकार के राजस्व एवं भूमि सुधार विभाग से संपर्क करें: प्रश्न, सहायता और सुझाव के लिए आधिकारिक संपर्क विवरण, पता, फोन और ईमेल प्राप्त करें।"
-        }
-        keywords={
-          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, Contact us, Contact details, Address, Phone numbers, Email, Feedback, संपर्क करें, बिहार राजस्व विभाग, विभागीय संपर्क, सहायता, सुझाव"
-        }
+        title="Contact Bihar Bhumi | Get Support & Land Services Assistance"
+        description="Contact Bihar Bhumi for support, queries, and feedback on land records, mutation, registration, and revenue services. Find our official address, phone, and email. We're here to help you with all Bihar land and revenue needs."
+        keywords="Contact Bihar Bhumi, Bihar land support, land records help, mutation assistance, Bihar revenue department contact, land services Bihar, customer support, Bihar government land portal"
       />
       <div className="bg-[#F7F7F7] min-h-screen">
         <div className="py-14 mb-2 bg-black rounded-b-3xl shadow-md">
           <h1 className="text-[#FF6600] text-center font-extrabold text-4xl md:text-5xl tracking-wide">
-            CONTACT US
+            Contact Bihar Bhumi: We're Here to Help
           </h1>
           <p className="text-white text-center font-medium mt-2">
-            Home&nbsp;&nbsp;&gt;&nbsp;&nbsp;Contact Us
+            Home &gt; Contact Us
           </p>
         </div>
         <div className="max-w-6xl mx-auto my-10 md:my-16 px-4 flex flex-col md:flex-row gap-10 md:gap-20">
           <div className="md:w-[55%] bg-white rounded-2xl shadow-md p-8">
-            <h4 className="md:text-3xl text-2xl font-bold text-black mb-4">
-              Connect With Us
-            </h4>
+            <h2 className="md:text-3xl text-2xl font-bold text-black mb-4">
+              Get in Touch with Bihar Bhumi
+            </h2>
             <div className="h-1 bg-[#FF6600] rounded-full w-36 mb-8"></div>
             <form
               className="flex flex-col gap-6"
               onSubmit={sendEmail}
               ref={form}
+              aria-label="Contact form for Bihar Bhumi support and queries"
             >
               <input
                 type="text"
@@ -118,8 +113,10 @@ function Contact() {
               <button
                 className="bg-[#FF6600] p-3 rounded-xl shadow-md text-white text-lg font-bold mt-2 hover:bg-black transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#FF6600] focus:ring-offset-2"
                 disabled={loading}
+                type="submit"
+                aria-label="Submit contact form"
               >
-                {loading ? "Sending...." : "Submit"}
+                {loading ? "Sending..." : "Send Message"}
               </button>
             </form>
           </div>
@@ -129,7 +126,7 @@ function Contact() {
                 pin_drop
               </span>
               <div>
-                <h3 className="text-lg font-bold text-black">OFFICE ADDRESS</h3>
+                <h3 className="text-lg font-bold text-black">Office Address</h3>
                 <p className="text-gray-700 text-base mt-1">
                   Khadi Bhandar Gate, Court Road, Madhubani, Bihar, 847211
                 </p>
@@ -140,7 +137,7 @@ function Contact() {
                 support_agent
               </span>
               <div>
-                <h3 className="text-lg font-bold text-black">PHONE NUMBER</h3>
+                <h3 className="text-lg font-bold text-black">Phone Number</h3>
                 <p
                   className="text-gray-700 text-base mt-1 cursor-pointer hover:text-[#FF6600]"
                   onClick={() => (window.location.href = "tel:+91-7761097990")}
@@ -154,7 +151,7 @@ function Contact() {
                 mail
               </span>
               <div>
-                <h3 className="text-lg font-bold text-black">EMAIL ID</h3>
+                <h3 className="text-lg font-bold text-black">Email</h3>
                 <p
                   className="text-gray-700 text-base mt-1 cursor-pointer hover:text-[#FF6600]"
                   onClick={() =>
@@ -177,6 +174,7 @@ function Contact() {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="Bihar Bhumi Office Location Map"
           ></iframe>
         </div>
       </div>

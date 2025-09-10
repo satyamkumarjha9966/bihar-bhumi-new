@@ -5,182 +5,202 @@ function About() {
   return (
     <>
       <HelmetSEO
-        title={
-          "About Bihar Revenue and Land Reforms Department | बिहार राजस्व एवं भूमि सुधार विभाग के बारे में"
-        }
-        description={
-          "Learn about the Bihar Government Revenue and Land Reforms Department, its mission, vision, and initiatives for transparent revenue management and land reforms. बिहार सरकार के राजस्व एवं भूमि सुधार विभाग के उद्देश्य, मिशन, और पारदर्शी भूमि प्रबंधन व सुधार की पहलों के बारे में जानें।"
-        }
-        keywords={
-          "Bihar Revenue Department, Bihar Land Reforms Department, Bihar Government, About us, Objectives, Functions, Initiatives, Revenue management, Land reforms, बिहार राजस्व विभाग, विभाग का परिचय, मिशन, उद्देश्य, भूमि सुधार, पारदर्शिता"
-        }
+        title="About Bihar Bhumi | Bihar Revenue & Land Reforms Department Overview"
+        description="Discover Bihar Bhumi's mission, vision, and commitment to transparent land records, revenue management, and citizen services. Learn how our digital platform empowers users and modernizes land administration in Bihar."
+        keywords="About Bihar Bhumi, Bihar Revenue Department, Land Reforms Bihar, land records Bihar, mission, vision, transparency, citizen services, digital land portal, Bihar government"
       />
       <div className="bg-[#F7F7F7] min-h-screen">
         <div className="py-14 mb-2 bg-black rounded-b-3xl shadow-md">
           <h1 className="text-[#FF6600] text-center font-extrabold text-4xl md:text-5xl tracking-wide">
-            ABOUT US
+            About Bihar Bhumi: Empowering Landowners & Citizens
           </h1>
           <p className="text-white text-center font-medium mt-2">
-            Home&nbsp;&nbsp;&gt;&nbsp;&nbsp;About Us
+            Home &gt; About Us
           </p>
         </div>
         <div className="max-w-5xl mx-auto my-10 md:my-16 px-4 flex flex-col gap-10">
           <section className="bg-white rounded-2xl shadow-md p-8">
-            <h4 className="text-3xl font-bold text-black mb-4">About Us</h4>
+            <h2 className="text-3xl font-bold text-black mb-4">Who We Are</h2>
             <div className="h-1 bg-[#FF6600] rounded-full w-24 mb-6"></div>
             <p className="text-gray-700 leading-relaxed text-lg">
-              Welcome to the official portal of Bihar's Revenue and Land Reforms
-              Department, dedicated to providing efficient and transparent
-              services related to land management and revenue. Our platform
-              serves as a one-stop destination for citizens, stakeholders, and
-              government officials alike, aiming to simplify land transactions
-              and streamline administrative processes.
+              Bihar Bhumi is the official digital platform of the Bihar Revenue
+              and Land Reforms Department. We are dedicated to delivering
+              transparent, efficient, and user-friendly land and revenue
+              services to all citizens of Bihar. Our portal is your one-stop
+              destination for land records, mutation, registration, and
+              government notifications—empowering landowners, buyers, and
+              stakeholders with reliable information and seamless online
+              services.
             </p>
           </section>
           <section className="bg-[#000000] rounded-2xl shadow-md p-8">
-            <h4 className="text-3xl font-bold text-[#FF6600] mb-4">
-              Our Mission
-            </h4>
+            <h2 className="text-3xl font-bold text-[#FF6600] mb-4">
+              Our Mission & Vision
+            </h2>
             <div className="h-1 bg-[#FF6600] rounded-full w-20 mb-6"></div>
             <p className="text-white leading-relaxed text-lg">
-              At Bihar Revenue and Land Reforms Department, our mission is to
-              leverage technology to modernize land management practices,
-              promote transparency, and empower citizens with easy access to
-              land-related information and services. We are committed to
-              facilitating smooth interactions between citizens and the
-              government, ensuring equitable land distribution and effective
-              revenue collection.
+              Our mission is to modernize land management in Bihar through
+              technology, transparency, and citizen empowerment. We strive to:
             </p>
+            <ul className="text-white leading-relaxed text-lg list-disc pl-8 mt-2">
+              <li>
+                Provide easy, online access to land records and revenue services
+              </li>
+              <li>Promote transparency and accountability in all processes</li>
+              <li>
+                Empower users with up-to-date information and digital tools
+              </li>
+              <li>
+                Facilitate smooth, equitable land transactions for all citizens
+              </li>
+            </ul>
           </section>
           <section className="bg-white rounded-2xl shadow-md p-8">
-            <h4 className="text-2xl font-bold text-black mb-4">
-              Services We Offer
-            </h4>
+            <h2 className="text-2xl font-bold text-black mb-4">
+              What We Offer: Key Services
+            </h2>
             <div className="h-1 bg-[#FF6600] rounded-full w-20 mb-6"></div>
-            <div className="mb-8">
+            <div className="mb-8 space-y-4">
               <p className="text-justify text-gray-700 font-medium">
                 <span className="font-bold text-[#FF6600]">
-                  Online Application Submission:{" "}
+                  Online Application Submission:
                 </span>
                 <br />
                 <span className="ml-0 md:ml-2">
-                  Easily file applications for land-related transactions such as
-                  mutation, registration, and surveys through our user-friendly
-                  online portal.
+                  Easily apply for land mutation, registration, and surveys
+                  through our secure online portal.
                 </span>
               </p>
-              <p className="text-justify text-gray-700 font-medium mt-4">
+              <p className="text-justify text-gray-700 font-medium">
                 <span className="font-bold text-[#FF6600]">
-                  Application Status Tracking:{" "}
+                  Application Status Tracking:
                 </span>
                 <br />
                 <span className="ml-0 md:ml-2">
-                  Keep track of the status of your applications in real-time,
-                  ensuring transparency and accountability in the processing of
-                  land-related requests.
+                  Track your application status in real-time for full
+                  transparency and peace of mind.
                 </span>
               </p>
-              <p className="text-justify text-gray-700 font-medium mt-4">
+              <p className="text-justify text-gray-700 font-medium">
                 <span className="font-bold text-[#FF6600]">
-                  General Information:{" "}
+                  General Information & Announcements:
                 </span>
                 <br />
                 <span className="ml-0 md:ml-2">
-                  Stay informed about important announcements, notifications,
-                  and updates related to land reforms and revenue management in
-                  Bihar.
+                  Stay updated with the latest news, notifications, and
+                  government circulars on land reforms and revenue management.
                 </span>
               </p>
-              <p className="text-justify text-gray-700 font-medium mt-4">
+              <p className="text-justify text-gray-700 font-medium">
                 <span className="font-bold text-[#FF6600]">
-                  Land Revenue Management:{" "}
+                  Land Revenue Management:
                 </span>
                 <br />
                 <span className="ml-0 md:ml-2">
-                  Access resources and services for efficient management of land
-                  revenue, including tax assessment, collection, and record
-                  maintenance.
+                  Access resources for tax assessment, collection, and record
+                  maintenance to ensure efficient land revenue management.
                 </span>
               </p>
-              <p className="text-justify text-gray-700 font-medium mt-4">
+              <p className="text-justify text-gray-700 font-medium">
                 <span className="font-bold text-[#FF6600]">
-                  SMS Alert Service:{" "}
+                  SMS Alert Service:
                 </span>
                 <br />
                 <span className="ml-0 md:ml-2">
-                  Stay updated with important notifications and alerts regarding
-                  your land-related transactions through our SMS alert service.
+                  Get instant SMS alerts for important updates and your
+                  land-related transactions.
+                </span>
+              </p>
+              <p className="text-justify text-gray-700 font-medium">
+                <span className="font-bold text-[#FF6600]">
+                  Aadhaar/Mobile Seeding Status:
+                </span>
+                <br />
+                <span className="ml-0 md:ml-2">
+                  Verify Aadhaar and mobile seeding for your land records to
+                  keep your information accurate and secure.
+                </span>
+              </p>
+              <p className="text-justify text-gray-700 font-medium">
+                <span className="font-bold text-[#FF6600]">
+                  e-Mapi & Bhu-Abhilekh Portal:
+                </span>
+                <br />
+                <span className="ml-0 md:ml-2">
+                  Explore digital mapping and land records for comprehensive,
+                  up-to-date land data.
                 </span>
               </p>
             </div>
             <p className="text-justify text-gray-700 font-medium mt-4">
               <span className="font-bold text-[#FF6600]">
-                Aadhar/Mobile Seeding Status:{" "}
+                General Information:{" "}
               </span>
               <br />
               <span className="ml-0 md:ml-2">
-                Check the status of Aadhar and mobile seeding for your land
-                records, ensuring accurate and up-to-date information.
+                Stay informed about important announcements, notifications, and
+                updates related to land reforms and revenue management in Bihar.
               </span>
             </p>
             <p className="text-justify text-gray-700 font-medium mt-4">
               <span className="font-bold text-[#FF6600]">
-                e-Mapi and Bhu-Abhilekh Portal:{" "}
+                Land Revenue Management:{" "}
               </span>
               <br />
               <span className="ml-0 md:ml-2">
-                Explore our digital mapping and land records portal for
-                comprehensive access to land-related data and information.
+                Access resources and services for efficient management of land
+                revenue, including tax assessment, collection, and record
+                maintenance.
+              </span>
+            </p>
+            <p className="text-justify text-gray-700 font-medium mt-4">
+              <span className="font-bold text-[#FF6600]">
+                SMS Alert Service:{" "}
+              </span>
+              <br />
+              <span className="ml-0 md:ml-2">
+                Stay updated with important notifications and alerts regarding
+                your land-related transactions through our SMS alert service.
               </span>
             </p>
           </section>
           <section className="bg-white rounded-2xl shadow-md p-8">
-            <h4 className="text-2xl font-bold text-black mb-4">
-              Why Choose Us
-            </h4>
+            <h2 className="text-2xl font-bold text-black mb-4">
+              Why Choose Bihar Bhumi?
+            </h2>
             <div className="h-1 bg-[#FF6600] rounded-full w-20 mb-6"></div>
-            <p className="text-justify text-gray-700 font-medium">
-              <span className="font-bold text-[#FF6600]">Convenience: </span>
-              <br />
-              <span className="ml-0 md:ml-2">
-                Our online platform offers convenience and accessibility,
-                allowing users to access services and information from anywhere,
-                anytime.
-              </span>
-            </p>
-            <p className="text-justify text-gray-700 font-medium mt-4">
-              <span className="font-bold text-[#FF6600]">Transparency: </span>
-              <br />
-              <span className="ml-0 md:ml-2">
-                We prioritize transparency in all our processes, ensuring that
-                citizens have visibility into the status and progress of their
-                land-related transactions.
-              </span>
-            </p>
-            <p className="text-justify text-gray-700 font-medium mt-4">
-              <span className="font-bold text-[#FF6600]">Efficiency: </span>
-              <br />
-              <span className="ml-0 md:ml-2">
-                With streamlined processes and digital workflows, we strive to
-                deliver efficient and prompt services to our users, reducing the
-                time and effort involved in land transactions.
-              </span>
-            </p>
-            <p className="text-justify text-gray-700 font-medium mt-4">
-              <span className="font-bold text-[#FF6600]">Empowerment: </span>
-              <br />
-              <span className="ml-0 md:ml-2">
-                By providing access to land records, legal resources, and
-                dispute resolution mechanisms, we empower citizens to assert
-                their rights and participate actively in land management
-                processes.
-              </span>
-            </p>
+            <ul className="list-disc pl-8 space-y-2 text-gray-700 font-medium">
+              <li>
+                <span className="font-bold text-[#FF6600]">Convenience:</span>{" "}
+                Access all services and information online, anytime, anywhere.
+              </li>
+              <li>
+                <span className="font-bold text-[#FF6600]">Transparency:</span>{" "}
+                Track your applications and transactions with full visibility.
+              </li>
+              <li>
+                <span className="font-bold text-[#FF6600]">Efficiency:</span>{" "}
+                Enjoy fast, streamlined digital processes for all land-related
+                needs.
+              </li>
+              <li>
+                <span className="font-bold text-[#FF6600]">Empowerment:</span>{" "}
+                Get the resources and support you need to manage your land
+                confidently.
+              </li>
+            </ul>
             <p className="text-justify text-[#FF6600] font-bold mt-6">
-              Join us in our mission to transform land administration and
-              revenue management in Bihar, making it more efficient,
-              transparent, and citizen-centric.
+              Join Bihar Bhumi today and experience a new era of land
+              administration—efficient, transparent, and citizen-centric.
             </p>
+            <div className="mt-6">
+              <a
+                href="/services"
+                className="inline-block bg-[#FF6600] text-white font-semibold px-6 py-2 rounded-lg shadow hover:bg-black hover:text-[#FF6600] transition-colors"
+              >
+                Explore Our Services
+              </a>
+            </div>
           </section>
         </div>
       </div>
