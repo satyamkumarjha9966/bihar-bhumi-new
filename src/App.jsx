@@ -33,26 +33,36 @@ function App() {
     <>
       {popUp ? (
         <div className="fixed inset-0 z-50 backdrop-blur-sm flex justify-center items-center p-2">
-          <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg shadow-lg p-5 border-[6px] border-black relative">
+          <div className="bg-white rounded-2xl shadow-2xl p-6 border-4 border-[#FF6600] relative flex flex-col items-center max-w-md w-full animate-fade-in">
             <span
-              className="material-symbols-outlined text-5xl font-bold absolute top-4 right-4 cursor-pointer text-white"
+              className="material-symbols-outlined text-4xl font-bold absolute top-3 right-3 cursor-pointer text-[#FF6600] hover:text-black transition-colors"
               onClick={() => setPopUp(false)}
+              title="Close"
             >
               cancel
             </span>
-            <div className="flex flex-col items-center justify-center">
-              <img src={customerAgent} alt="" height={"100%"} width={"100%"} />
-              <span className="text-center font-bold text-xl text-white">
-                Connect with our Customer Service Agent now for swift
-                assistance!
-              </span>
-              <div
-                className="p-4 cursor-pointer"
-                onClick={() => (window.location.href = "tel:+91-7761097990")}
-              >
-                <CallBox />
-              </div>
-            </div>
+            <img
+              src={customerAgent}
+              alt="Customer Service Agent"
+              className="w-20 h-20 mb-3 rounded-full border-2 border-[#FF6600] bg-[#FFF5ED] object-cover"
+            />
+            <span className="text-center font-bold text-xl text-black mb-1">
+              Connect with our{" "}
+              <span className="text-[#FF6600]">Customer Service Agent</span> now
+              for swift assistance!
+            </span>
+            <br />
+            <span className="text-center text-base text-black mb-2 font-semibold">
+              हमारे <span className="text-[#FF6600]">कस्टमर सर्विस एजेंट</span>{" "}
+              से तुरंत सहायता के लिए संपर्क करें!
+            </span>
+            <button
+              className="mt-2 px-6 py-2 bg-[#FF6600] text-white font-semibold rounded-lg shadow hover:bg-black hover:text-[#FF6600] transition-colors text-lg flex items-center gap-2"
+              onClick={() => (window.location.href = "tel:+91-7761097990")}
+            >
+              <span className="material-symbols-outlined text-xl">call</span>
+              Call Now
+            </button>
           </div>
         </div>
       ) : null}

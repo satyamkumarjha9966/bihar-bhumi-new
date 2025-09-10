@@ -3,92 +3,99 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-green-500 py-11 px-6 md:px-24 text-white">
-      {/* // Data Container  */}
-      <div className="flex flex-col md:flex-row gap-11">
-        {/* // Company Content */}
-        <div className="md:w-[30%]">
-          <h4 className="text-2xl font-medium">About Us</h4>
-          <div className="h-1 bg-green-600 rounded-3xl w-20 mt-2 mb-4"></div>
-          <h2 className="text-justify text-white">
+    <footer className="bg-black text-white pt-12 pb-6 px-4 md:px-16 mt-10 rounded-t-3xl shadow-inner">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 md:gap-20 justify-between">
+        {/* About Section */}
+        <div className="md:w-1/3">
+          <h4 className="text-2xl font-bold text-[#FF6600] mb-2">About Us</h4>
+          <div className="h-1 bg-[#FF6600] rounded-3xl w-20 mb-4"></div>
+          <p className="text-gray-300 text-justify">
             Explore Bihar's Revenue and Land Reforms Department effortlessly
             with our user-friendly third-party website. Access vital services,
             submit applications, and track progress seamlessly for efficient
             land-related transactions. Simplifying interactions and enhancing
             transparency for citizens and stakeholders alike.
-          </h2>
+          </p>
         </div>
-        {/* // Quick Link  */}
-        <div className="md:w-[30%] md:ml-24">
-          <h4 className="text-2xl font-medium">Quick Links</h4>
-          <div className="h-1 bg-green-600 rounded-3xl w-20 mt-2 mb-4"></div>
-          <ul className="flex flex-col gap-2 text-white">
-            <li className="hover:text-white hover:font-bold">
-              <Link to={"/"}>&gt; &nbsp;Home</Link>
+        {/* Quick Links */}
+        <div className="md:w-1/3">
+          <h4 className="text-2xl font-bold text-[#FF6600] mb-2">
+            Quick Links
+          </h4>
+          <div className="h-1 bg-[#FF6600] rounded-3xl w-20 mb-4"></div>
+          <ul className="flex flex-col gap-2">
+            <li>
+              <Link
+                to="/"
+                className="text-white hover:text-[#FF6600] font-medium transition-colors"
+              >
+                &gt; Home
+              </Link>
             </li>
-            <li className="hover:text-white hover:font-bold">
-              <Link to={"/aboutUs"}>&gt; &nbsp;About Us</Link>
+            <li>
+              <Link
+                to="/aboutUs"
+                className="text-white hover:text-[#FF6600] font-medium transition-colors"
+              >
+                &gt; About Us
+              </Link>
             </li>
-            <li className="hover:text-white hover:font-bold">
-              <Link to={"/contactUs"}>&gt; &nbsp;Contact Us</Link>
+            <li>
+              <Link
+                to="/contactUs"
+                className="text-white hover:text-[#FF6600] font-medium transition-colors"
+              >
+                &gt; Contact Us
+              </Link>
             </li>
           </ul>
         </div>
-        {/* contect contect  */}
-        <div className="md:w-[30%]">
-          <h4 className="text-2xl font-medium">Connect With Us</h4>
-          <div className="h-1 bg-green-600 rounded-3xl w-20 mt-2 mb-4"></div>
-          {/* <h3 className="text-[15px] flex items-center mb-1">
-            <span class="material-symbols-outlined text-black">pin_drop</span>{" "}
-            <span className="text-black font-medium">
-              &nbsp;&nbsp;OFffice Address
-            </span>
-          </h3>
-          <h4 className="text-white mb-1 ml-2">
-            Khadi Bhandar Gate, Court Road, Madhubani, Bihar, 847211
-          </h4> */}
-          <h3 className="text-[15px] flex items-center">
-            <span class="material-symbols-outlined text-black mb-1">
+        {/* Contact Section */}
+        <div className="md:w-1/3">
+          <h4 className="text-2xl font-bold text-[#FF6600] mb-2">
+            Connect With Us
+          </h4>
+          <div className="h-1 bg-[#FF6600] rounded-3xl w-20 mb-4"></div>
+          <div className="flex items-center gap-2 mb-2">
+            <span className="material-symbols-outlined text-[#FF6600] text-xl">
               support_agent
-            </span>{" "}
-            <span className="text-black font-medium">
-              &nbsp;&nbsp;Phone Number
             </span>
-          </h3>
-          <h4
+            <span className="font-medium">Phone Number</span>
+          </div>
+          <p
             onClick={() => (window.location.href = "tel:+91-7761097990")}
             style={{ cursor: "pointer" }}
-            className="text-white ml-2 hover:text-white hover:font-bold"
+            className="text-white ml-2 hover:text-[#FF6600] font-medium transition-colors"
           >
             +91-7761097990
-          </h4>
-          <h3 className="text-[15px] flex items-center mb-1 mt-1">
-            <span class="material-symbols-outlined text-black">mail</span>{" "}
-            <span className="text-black font-medium">&nbsp;&nbsp;Email Id</span>
-          </h3>
-          <h4
+          </p>
+          <div className="flex items-center gap-2 mb-2 mt-3">
+            <span className="material-symbols-outlined text-[#FF6600] text-xl">
+              mail
+            </span>
+            <span className="font-medium">Email Id</span>
+          </div>
+          <p
             onClick={() =>
               (window.location.href = "mailto:jankaribiharbhumi@gmail.com")
             }
             style={{ cursor: "pointer" }}
-            className="text-white ml-2 hover:text-white hover:font-bold"
+            className="text-white ml-2 hover:text-[#FF6600] font-medium transition-colors"
           >
             jankaribiharbhumi@gmail.com
-          </h4>
+          </p>
         </div>
       </div>
-      {/* // Line Container  */}
-      <div className="h-[1px] bg-gray-800 my-10"></div>
-      {/* // All Right Content */}
-      <div className="font-medium text-center">
+      <div className="h-[1px] bg-[#222] my-10"></div>
+      <div className="font-medium text-center text-gray-400">
         <span>
           © 2024. All Rights Corprest Consultancy Reserved.{" "}
-          <span className="text-black">
+          <span className="text-[#FF6600]">
             Designed & Developed By Satyam SOLUTION PVT.LTD.
           </span>
         </span>
       </div>
-    </div>
+    </footer>
   );
 }
 
