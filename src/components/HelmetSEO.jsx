@@ -13,19 +13,19 @@ function HelmetSEO(props) {
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content={"https://www.biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
+        content={"https://biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
       />
       {/* // Update This With Your Live Web URL  */}
-      <meta property="og:url" content="https://www.biharbhumijankari.co.in/" />
+      <meta property="og:url" content="https://biharbhumijankari.co.in/" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image"
-        content={"https://www.biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
+        content={"https://biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
       />
       <meta
         name="twitter:card"
-        content={"https://www.biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
+        content={"https://biharbhumijankari.co.in/assets/bl-eiD12-P4.png"}
       />
     </Helmet>
   );
