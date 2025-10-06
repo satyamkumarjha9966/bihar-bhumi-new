@@ -9,25 +9,9 @@ import customerAgent from "./assets/cs.png";
 
 function App() {
   const [popUp, setPopUp] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      if (!popUp) {
-        setPopUp(true);
-      }
-    }, 20000);
-
-    return () => clearInterval(intervalId);
-  }, [popUp]);
-
-  useEffect(() => {
-    // Add or remove overflow hidden on the body based on popUp state
-    if (popUp) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [popUp]);
+  // NOTE: Removed automatic popups/overlays to comply with AdSense policy
+  // Popups should be user-initiated; keep the state available for future
+  // user actions but do not trigger it automatically.
 
   return (
     <>

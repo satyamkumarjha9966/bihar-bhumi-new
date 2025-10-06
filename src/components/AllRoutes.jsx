@@ -5,6 +5,8 @@ import Error from "./Error";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Services from "../pages/Services";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Terms from "../pages/Terms";
 import Signup from "./Signup";
 import Login from "./Login";
 
@@ -16,6 +18,8 @@ function AllRoutes() {
         <Route path="aboutUs" element={<About />} />
         <Route path="contactUs" element={<Contact />} />
         <Route path="services" element={<Services />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="terms" element={<Terms />} />
         <Route path="signup" element={<Signup />} />
         <Route path="login" element={<Login />} />
         <Route path="*" element={<Error />} />

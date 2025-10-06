@@ -48,6 +48,22 @@ function Footer() {
                 &gt; Contact Us
               </Link>
             </li>
+            <li>
+              <Link
+                to="/privacy-policy"
+                className="text-white hover:text-[#FF6600] font-medium transition-colors"
+              >
+                &gt; Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/terms"
+                className="text-white hover:text-[#FF6600] font-medium transition-colors"
+              >
+                &gt; Terms of Use
+              </Link>
+            </li>
           </ul>
         </div>
         {/* Contact Section */}
