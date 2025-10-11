@@ -105,9 +105,9 @@ function Footer() {
       <div className="h-[1px] bg-[#222] my-10"></div>
       <div className="font-medium text-center text-gray-400">
         <span>
-          © 2024. All Rights Corprest Consultancy Reserved.{" "}
+          © 2025. All Rights Bihar Bhumi Jankari Reserved.{" "}
           <span className="text-[#FF6600]">
-            Designed & Developed By Satyam SOLUTION PVT.LTD.
+            Designed & Developed By Satyam Solution PVT. LTD.
           </span>
         </span>
       </div>
